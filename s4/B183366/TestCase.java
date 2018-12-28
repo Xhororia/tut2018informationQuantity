@@ -33,7 +33,8 @@ public class TestCase {
     public static void main(String[] args) {
 	try {
 	    FrequencerInterface  myObject;
-	    int freq;
+		int freq;
+		System.out.println("---Black box test---");
 		System.out.println("checking s4.B183366.Frequencer");
 		
 		//It returns -1 when TARGET is not set or TARGET's length is zero.
@@ -75,6 +76,30 @@ public class TestCase {
 	    System.out.println("Exception occurred: STOP");
 	}
 
+	System.out.println("---White box test---");
+	System.out.println("checking s4.B183366.Frequencer");
+	try{
+		FrequencerInterface myObject;
+		int freq;
+
+		myObject = new s4.B183366.Frequencer();
+		myObject.setSpace("0000".getBytes());
+		myObject.setTarget("00".getBytes());
+		freq = myObject.frequency();
+		System.out.print("\"00\" in \"0000 \" appears "+freq+" times. ");
+		if(2 == freq) { 
+			System.out.println("OK"); 
+		} else {
+			System.out.println("WRONG"); 
+		}
+		//文字が重複してカウントされていることが確認できる。
+	}
+	catch(Exception e) {
+
+		System.out.println("Exception occurred: STOP");
+
+	}
+	System.out.println("---Black box test---");
 	try {
 	    InformationEstimatorInterface myObject;
 		double value;
