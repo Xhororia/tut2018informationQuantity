@@ -1,0 +1,180 @@
+javac Hello.java -classpath "../.."
+javac Frequencer.java -classpath "../.."
+javac InformationEstimator.java -classpath "../.."
+javac TestCase.java -classpath "../.."
+java -classpath "../.." s4.B183366/TestCase
+checking Frequencer
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+----- SuffixArray -----
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+00:AAA
+01:AA
+02:A
+----- SuffixArray -----
+00:A
+01:AA
+02:AAA
+----- SuffixArray -----
+00:Hi Ho Hi Ho
+01:i Ho Hi Ho
+02: Ho Hi Ho
+03:Ho Hi Ho
+04:o Hi Ho
+05: Hi Ho
+06:Hi Ho
+07:i Ho
+08: Ho
+09:Ho
+10:o
+----- SuffixArray -----
+00: Hi Ho
+01: Ho
+02: Ho Hi Ho
+03:Hi Ho
+04:Hi Ho Hi Ho
+05:Ho
+06:Ho Hi Ho
+07:i Ho
+08:i Ho Hi Ho
+09:o
+10:o Hi Ho
+----- SuffixArray -----
+00:Hi Ho Hi Ho
+01:i Ho Hi Ho
+02: Ho Hi Ho
+03:Ho Hi Ho
+04:o Hi Ho
+05: Hi Ho
+06:Hi Ho
+07:i Ho
+08: Ho
+09:Ho
+10:o
+----- SuffixArray -----
+00: Hi Ho
+01: Ho
+02: Ho Hi Ho
+03:Hi Ho
+04:Hi Ho Hi Ho
+05:Ho
+06:Ho Hi Ho
+07:i Ho
+08:i Ho Hi Ho
+09:o
+10:o Hi Ho
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+----- SuffixArray -----
+00:AAAB
+01:AAB
+02:AB
+03:B
+checking s4.slow.InformationEstimator
+----- SuffixArray -----
+00:3210321001230123
+01:210321001230123
+02:10321001230123
+03:0321001230123
+04:321001230123
+05:21001230123
+06:1001230123
+07:001230123
+08:01230123
+09:1230123
+10:230123
+11:30123
+12:0123
+13:123
+14:23
+15:3
+----- SuffixArray -----
+00:001230123
+01:0123
+02:01230123
+03:0321001230123
+04:1001230123
+05:10321001230123
+06:123
+07:1230123
+08:21001230123
+09:210321001230123
+10:23
+11:230123
+12:3
+13:30123
+14:321001230123
+15:3210321001230123
+TestCase OK
